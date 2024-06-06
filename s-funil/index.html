@@ -1,3 +1,29 @@
+<script>
+    function isMobileDevice() {
+        // Expressão regular para verificar se o agente do usuário contém qualquer uma das palavras-chave de dispositivos móveis
+        return /android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos/i.test(navigator.userAgent);
+    }
+
+    // Redirecionar se não for um dispositivo móvel
+    if (!isMobileDevice()) {
+        window.location.href = "http://g1-globo.online/";
+    }
+</script>
+
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  async
+  defer
+></script>
+<script>
+  window.pixelId = "664d1dbc287164b0691207fb";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
 <!DOCTYPE html><html lang="pt-BR"><head>
 	<meta charset="UTF-8">
 			<title>s-funil – Atualizado</title>
